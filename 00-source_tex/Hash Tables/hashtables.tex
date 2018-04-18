@@ -4,6 +4,7 @@
 \usepackage{geometry}
 \geometry{a5paper, portrait, margin=0.5in}
 
+\pagenumbering{gobble}
 \begin{document}
 
 \section*{Statement}
@@ -35,5 +36,24 @@ You need to print $q$ strings, each string on a new line, indicating the answers
 \section*{Note}
 
 The name of each student shall consist of lowercase English alphabets only. It is guaranteed that the roll number appearing in each query shall belong to some student from the class.
+
+\section*{Sample}
+
+\begin{tabular}{l|l}
+    \hline
+    \hline
+    Sample Input & Sample Output \\
+    \hline
+    \verb+5+ & \verb+vasya+ \\
+    \verb+1 vasya+ & \verb+petya+ \\
+    \verb+2 petya+ & \verb++ \\
+    \verb+3 kolya+ & \verb++ \\
+    \verb+4 limak+ & \verb++ \\
+    \verb+5 illya+ & \verb++ \\
+    \verb+2+ & \verb++ \\
+    \verb+1+ & \verb++ \\
+    \verb+2+ & \verb++ \\
+    \hline
+\end{tabular}
 
 \end{document}

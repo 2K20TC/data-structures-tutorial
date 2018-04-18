@@ -4,6 +4,7 @@
 \usepackage{geometry}
 \geometry{a5paper, portrait, margin=0.5in}
 
+\pagenumbering{gobble}
 \begin{document}
 
 \section*{Statement}
@@ -25,5 +26,20 @@ Print $M$ lines, each containing $N$ space-separated integers, such that the inp
     \item $1 \le M \le 10$
     \item $1 \le A[i][j] \le 100$, where $0 \le i < N$ and $0 \le j < M$
 \end{itemize}
+
+\section*{Sample}
+
+\begin{tabular}{l|l}
+    \hline
+    \hline
+    Sample Input & Sample Output \\
+    \hline
+    \verb+3 5+ & \verb+13 9 5+ \\
+    \verb+13 4 8 14 1+ & \verb+4 6 12+ \\
+    \verb+9 6 3 7 21+ & \verb+8 3 17+ \\
+    \verb+5 12 17 9 3+ & \verb+14 7 9+ \\
+    \ & \verb+1 21 3+ \\
+    \hline
+\end{tabular}
 
 \end{document}
