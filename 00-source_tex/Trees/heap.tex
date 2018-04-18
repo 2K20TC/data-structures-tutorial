@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{geometry}
+\geometry{a5paper, portrait, margin=0.5in}
+
+\begin{document}
+
+\section*{Statement}
+
+You have been given a sequence $A$ of $N$ digits. Each digit in this sequence ranges from $1$ to $10^{9}$. You need to perform two types of operations on this list.
+
+\begin{description}
+    \item[Addition] $Add(x)$, add an element x to the end of the list.
+    \item[Maximum of list] $Max(list)$, find the maximum element of the current sequence.
+\end{description}
+
+\section*{Input}
+
+The first line consists of a single integer $N$, the size of the initial sequence. The next line consists of $N$ space separated integers representing the elements of the initial sequence.
+
+The next line contains a single integer $q$, the number of queries. The next $q$ lines contain the operation details. The first integer type indicates the type of query. If $type_{i} = 1$, it is followed by another integer $x$ and the operation to be performed is addition. If $type_{i} = 2$, the other operation is to be performed.
+
+\section*{Output}
+
+For each operation of the second type, print a single integer on a new line. 
+
+\section*{Constraints}
+
+\begin{itemize}
+    \item $1 \le N \le 10^{5}$
+    \item $1 \le A[i] \le 10^{9}$
+    \item $1 \le q \le 10^{4}$
+\end{itemize}
+
+\end{document}

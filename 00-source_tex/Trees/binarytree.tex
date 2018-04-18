@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{geometry}
+\geometry{a5paper, portrait, margin=0.5in}
+
+\begin{document}
+
+\section*{Statement}
+
+Given a binary tree which has T nodes, you need to find the diameter of that binary tree. The diameter of a tree is the number of nodes on the longest path between two leaves in the tree.
+
+\section*{Input}
+
+First line contains two integers, $T$ and $X$, the number of nodes in the tree and value of the root node. The following $2 \times (T - 1)$ lines contain details of the nodes.
+
+Each node is described by two lines. The first line contains a string and the second contains an integer, which denote the path to the node from root and the value of the node respectively.
+
+The string consists of the characters $L$ and $R$ only. $L$ denotes left child and $R$ denotes right child.
+
+\section*{Output}
+
+Print the diameter of the binary tree.
+
+\section*{Constraints}
+
+\begin{itemize}
+    \item $1 \le T \le 20$
+    \item $1 \le valueofnodes \le 20$
+\end{itemize}
+
+\end{document}

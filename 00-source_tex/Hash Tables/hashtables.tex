@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{geometry}
+\geometry{a5paper, portrait, margin=0.5in}
+
+\begin{document}
+
+\section*{Statement}
+
+Our friend Monk has been made teacher for the day by his school professors. He will be teaching Informatics to his colleagues. Before entering the class, Monk realizes that he does not remember the names of all his colleagues clearly. He feels this will cause problems and not allow him to teach the class well. However, Monk remembers the roll numbers of all his colleagues very well.
+
+Monk wants you to help him out. He will initially give you a list indicating the name and roll number of all his colleagues. When he enters the class, he will give you the roll number of any one of his colleagues. You need to revert to him with the name of that colleague.
+
+\section*{Input}
+
+The first line contains a single integer $N$ denoting the number of Monk's colleagues. Each of the next $N$ lines contain an integer $r$ and a string $s$ denoting the roll number and name of Monk's $i^{th}$ colleague.
+
+The next line contains a single integer $q$ denoting the number of queries Monk shall present to you when he starts teaching. Each of the next $q$ lines contain a single integer $x$ denoting the roll number of the student whose name Monk wants to know.
+
+\section*{Output}
+
+You need to print $q$ strings, each string on a new line, indicating the answers to each of Monk's queries. 
+
+\section*{Constraints}
+
+\begin{itemize}
+    \item $1 \le N \le 10^{5}$
+    \item $1 \le r \le 10^{9}$
+    \item $1 \le |s| \le 25$
+    \item $1 \le q \le 10^{4}$
+    \item $1 \le x \le 10^{9}$
+\end{itemize}
+
+\section*{Note}
+
+The name of each student shall consist of lowercase English alphabets only. It is guaranteed that the roll number appearing in each query shall belong to some student from the class.
+
+\end{document}

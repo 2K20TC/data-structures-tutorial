@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{geometry}
+\geometry{a5paper, portrait, margin=0.5in}
+
+\begin{document}
+
+\section*{Statement}
+
+Implement and operate a queue according to input. There are two operations to be implemented.
+
+\begin{enumerate}
+    \item Enqueue
+    \item Dequeue
+\end{enumerate}
+
+\section*{Input}
+
+The first line contains an integer $N$, the number of operations that follow. The operations are formatted as given below
+
+\begin{description}
+    \item[Enqueue] $E\ x$ - enqueue $x$.
+    \item[Dequeue] $D$ - dequeue an element.
+\end{description}
+
+\section*{Output}
+
+For each operation, the output should be as given below.
+
+\begin{description}
+    \item[Enqueue] Print the new size of the queue.
+    \item[Dequeue] Print two space-separated integers, the deleted element (1 if queue is empty) and the new size of the queue.
+\end{description}
+
+\section*{Constraints}
+
+\begin{itemize}
+    \item $1 \le N \le 100$
+    \item $1 \le x \le 100$
+\end{itemize}
+
+\end{document}
