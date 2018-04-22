@@ -1,0 +1,11 @@
+7
+5 snake
+7 ocelot
+2 liquid
+3 otacon
+10 miller
+15 eva
+11 zero
+2
+5
+2
