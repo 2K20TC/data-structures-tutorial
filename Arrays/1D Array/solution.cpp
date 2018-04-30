@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	int num,idx;
-	int arr[10];
+	int arr[10000];
 
 	cin>>num;
 	for(idx=0;idx<num;idx++)
