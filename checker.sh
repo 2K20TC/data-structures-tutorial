@@ -5,7 +5,7 @@ CC=cc
 VERSION="0.1"
 
 PROJ_PATH=$(pwd)
-SOL_FILE="solution.c"
+SOL_FILE="solution.cpp"
 TESTCASE_DIR="tests"
 OUTPUT_DIR=output
 
