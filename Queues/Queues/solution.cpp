@@ -3,20 +3,20 @@ using namespace std;
 
 int main()
 {
-int n,count = 0,x,front=0,rear=0;
-char ch;
-cin>>n;
-int a[n];
-for(int i=1;i<=n;i++)
-{
-cin>>ch;
-if(ch=='E')
+	int n,count = 0,x,front=0,rear=0;
+	char ch;
+	cin>>n;
+	int a[n];
+	for(int i=1;i<=n;i++)
+	{
+		cin>>ch;
+		if(ch=='E')
 {
 cin>>x;
 a[rear]=x;
 rear++;
 count++;
-cout<<count<<endl;
+cout<<count;
 }
 else if(ch=='D')
 {
@@ -35,3 +35,4 @@ front++;
 }
 return 0;
 }
+
